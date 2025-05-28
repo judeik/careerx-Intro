@@ -1,0 +1,26 @@
+/* Margin */
+/* Padding */
+section{ 
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(243, 7, 144);
+
+    margin: 30px;
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+p{
+    color: brown;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 500px;
+}
