@@ -1,0 +1,72 @@
+/* nav */
+nav{
+    background-color: green;
+    padding: 10px;
+}
+
+/* nav ul li or ul li */
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    border: 2px solid green;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#title{
+    color: aqua;
+}
+
+.btn{
+    background-color: blue;
+    color: #fff;
+    width: 300px;
+    padding: 30px;
+}
+
+/* Display */
+/* Inline Element */
+/* Block Element */
+/* Inline-Block Element */
+
+/* BlocK Element Does not share the width, it occupies the whole width */
+h1{
+    background-color: blue;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+/* p{
+    background-color: green;
+    text-align: end;
+} */
+
+/* Inline Element Share the width */
+span{
+    background-color: coral;
+}
+
+/* Selectors: */
+/* Tag Name */
+/* Class Name */
+/* ID Name */
+
+/* Class Name */
+.today{
+    background-color: peru;
+    color: #fff;
+    text-align: end;
+}
+
+/* ID Name */
+#tomorrow{
+    background-color: mediumseagreen;
+    color: beige;
+}
