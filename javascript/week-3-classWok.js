@@ -1,4 +1,3 @@
-
 // alert ("Welcome to Javascript");
 
 // console on the browser
