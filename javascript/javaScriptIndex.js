@@ -97,3 +97,31 @@ console.log(message2)
 const jssOne = [ "Jude", "Chika", "John", "Victor", "Jasmine" ] // String Array
 const yy = [4, 30, 20, 0.5, 50, 0.85]  // Numbers Arrays
 const tt = [ true, false, "yyyy", "45", "money" ]    // Mixed Array
+
+// Array Methods and Properties
+console.log( jssOne.length )
+console.log( jssOne.includes("John") )
+console.log( jssOne.concat(tt) )
+
+// Add a new element to the end of the array and return the new array
+jssOne.push("Sampson") 
+jssOne.push("Martins") 
+
+// Add a new element to the beginning of the array and return the new array
+jssOne.unshift("Faith")
+
+// Pop removes the last element in the array
+jssOne.pop()
+console.log(jssOne)
+
+// Empty Array
+const pp = [  ]
+console.log(pp)
+
+// Push to the empty array
+pp.push("Michael")
+pp.push("Jude", "Charles")
+console.log(pp)
+
+// Printing out a particular name from the list
+console.log(jssOne[1])
