@@ -139,6 +139,103 @@ let ccc
 
 ggg < 10 ? "Do something" : "Do another thing"
 
-ggg < 10 ? ccc = 5 : ccc= 20
+ggg < 10 ? ccc = 5 : ccc = 20
 console.log(ccc)
-// stopped: 58:27
+
+// Second Method
+
+const xy = 10
+let ab
+
+xy > 10 ? console.log("Red") : console.log("Green")
+
+// Functions
+// It is one of very important in JavaScript
+// Function is like robot that works as programmed
+
+function nameOfFunction (){
+    console.log("First")
+}
+
+nameOfFunction()
+nameOfFunction()
+
+// Function that sum 
+
+function sumUp (){
+    const jb = 10 + 40 + 50
+    console.log(jb)
+}
+
+sumUp()
+
+function logMessage (){
+    const message = `My name is Ojobor Jude Ikechukwu`
+    console.log(message)
+}
+
+logMessage()
+
+// Function that accepts two numbers
+function sum (number1, number2){
+
+    const result = number1 + number2
+    console.log(result)
+}
+
+sum(2, 5)
+sum(70, 90)  // Not Secure, because a user might input one number which will lead to system crash, when he input 3 numbers the system will accept only the first 2 numbers and ignore the rest.
+
+// Secured: By implementing a default value
+
+function sub (number1 = 1, number2 = 2){
+
+    const result = number1 + number2
+    console.log(result)
+}
+
+sub()
+sub(2)
+sub(4, 6)
+sub(5, 5, 6)
+
+// Concatination
+function greetMe (name = "User", score = 0){
+    const message = `Hi, my name is ${name}, my score is ${score}`
+
+    console.log(message)
+}
+
+greetMe()
+greetMe("Jude", 80)
+greetMe("Ojobor Jude Ikechukwu", 280)
+
+// Hoisting: It placed your functions above the code. Reading the code from the top to the bottom
+
+// Arrow Function is an EJS 6
+const variableName = ()=>{} // This an Arrow function but the 3 of them must be together
+
+const variableNames = ()=>{
+    console.log("Testing First")
+}
+
+variableNames()
+
+// Accepting variables
+const acceptVariable = (num = 0)=>{
+    console.log(num + 10)
+}
+
+acceptVariable()
+acceptVariable(45)
+
+// NOTE: Arrow functions are not Hoisted. Variables decleared with const and let are not Hoisted but variables decleared by var are Hoisted.
+
+function canVote(age) {
+  return age >= 18 ? "You are eligible to vote" : "Not eligible";
+}
+
+// Example test
+const age = 20;
+console.log(canVote(age)); // Output: You are eligible to vote
+
